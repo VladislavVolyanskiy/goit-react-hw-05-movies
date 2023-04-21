@@ -14,7 +14,7 @@ const SingleMovieReviewsPage = lazy(() =>
   import('components/pages/SingleMovieReviewsPage/SingleMovieReviewsPage')
 );
 
-const UserRoutes = () => {
+const PageRoutes = () => {
   return (
     <Suspense fallback={<p>...loading</p>}>
       <Routes>
@@ -29,4 +29,4 @@ const UserRoutes = () => {
   );
 };
 
-export default UserRoutes;
+export default PageRoutes;

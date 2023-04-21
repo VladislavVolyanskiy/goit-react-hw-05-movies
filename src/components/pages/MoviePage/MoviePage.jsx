@@ -7,7 +7,7 @@ import css from './movie-page.module.css';
 import MovieSearchForm from 'components/modules/MovieSearchForm/MovieSearchForm';
 import MovieList from 'components/modules/MovieList/MovieList';
 
-import { getSearchMovie } from 'components/shared/api/movies';
+import { getSearchMovie } from 'components/api/movies';
 
 const MoviePage = () => {
   const [items, setItems] = useState([]);

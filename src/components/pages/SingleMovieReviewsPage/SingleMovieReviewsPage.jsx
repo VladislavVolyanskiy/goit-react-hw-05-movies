@@ -4,7 +4,7 @@ import { ProgressBar } from 'react-loader-spinner';
 
 import css from './single-movie-reviews-page.module.css';
 
-import { getSingleMovieReviews } from 'components/shared/api/movies';
+import { getSingleMovieReviews } from 'components/api/movies';
 
 const SingleMovieReviewsPage = () => {
   const [reviews, setReviews] = useState([]);

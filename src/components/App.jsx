@@ -1,5 +1,5 @@
 import Menu from './modules/Menu/Menu';
-import UserRoutes from 'UserRoutes';
+import PageRoutes from './PageRoutes';
 
 export const App = () => {
   return (
@@ -8,7 +8,7 @@ export const App = () => {
         <Menu />
       </header>
       <main>
-        <UserRoutes />
+        <PageRoutes />
       </main>
     </>
   );

@@ -3,8 +3,7 @@ import { MagnifyingGlass } from 'react-loader-spinner';
 
 import MovieList from '../MovieList/MovieList';
 
-import { getTrendingMovies } from '../../shared/api/movies';
-import { smoothScroll } from '../../shared/scripts/smoothScroll';
+import { getTrendingMovies } from '../../api/movies';
 
 import css from './movies.module.css';
 
@@ -23,7 +22,6 @@ const Movies = () => {
           return setItems([...result.results]);
         }
         setItems(prevState => [...prevState, ...result.results]);
-        smoothScroll(page);
       } catch (error) {
         setError(error.message);
       } finally {

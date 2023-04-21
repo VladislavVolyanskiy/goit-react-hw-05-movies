@@ -4,7 +4,7 @@ import { ProgressBar } from 'react-loader-spinner';
 
 import css from './single-movie-credits-page.module.css';
 
-import { getSingleMovieCredits } from 'components/shared/api/movies';
+import { getSingleMovieCredits } from 'components/api/movies';
 import defaultActorImg from '../../../images/default-actor.jpg';
 
 const SingleMovieCreditsPage = () => {

@@ -10,7 +10,7 @@ import { ProgressBar } from 'react-loader-spinner';
 
 import css from './single-movie-page.module.css';
 
-import { getSingleMovie } from 'components/shared/api/movies';
+import { getSingleMovie } from 'components/api/movies';
 import defaultMovieImg from '../../../images/default-movie.jpg';
 
 const getClassName = ({ isActive }) => {
